@@ -1,0 +1,137 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+ }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header */
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Left Side */
+#pictureDisplay { 
+    
+  
+}
+
+.all-details{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.profile{
+/* background-color: rgb(118, 82, 55); */
+background-color: white;
+height:400px;
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ }
+
+/* Right Side */
+
+.my_goals{
+    font-family: sans-serif;
+ background-color: rgba(8, 255, 74, 0.753);
+ height: 500px;
+ 
+ /* text-align: center; */
+  /* padding-left: 20px;
+ padding-right: 20px; */
+ }
+
+ .here{
+    text-align: center;
+ }
+.goals{
+padding-top: 20px;
+}
+
+.goal-details{
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.goal-title{
+
+}
+
+/* Footer */
+footer{
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    height: 70px;
+ }
+
+.links-title{
+color: whitesmoke;
+}
+
+.right{
+    color: white;
+}
+
+
+ /* media query */
+
+ @media only screen and (max-width: 768px){
+
+    .my_goals{
+height: 800px;   
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+ }
+
+ @media only screen and (max-width: 540px){
+
+    .my_goals{
+height: 600px;   
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+ }
+
+ @media only screen and (max-width: 430px){
+
+    .my_goals{
+height: 650px;   
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+ }
